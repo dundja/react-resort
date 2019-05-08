@@ -6,22 +6,22 @@ import Services from "../components/Services";
 import FeaturedRooms from "../components/FeaturedRooms";
 
 const Home = () => {
-  return (
-    <>
-      <Hero hero="defaultHero">
-        <Banner
-          title="Luxurious rooms"
-          subtitle="deluxe rooms starting at $299"
-        >
-          <Link to="rooms" className="btn-primary">
-            Our Rooms
-          </Link>
-        </Banner>
-      </Hero>
-      <Services />
-      <FeaturedRooms />
-    </>
-  );
+    return (
+        <>
+            <Hero hero="defaultHero">
+                <Banner
+                    title="Luxurious rooms"
+                    subtitle="deluxe rooms starting at $299"
+                >
+                    <Link to="rooms" className="btn-primary">
+                        Our Rooms
+                    </Link>
+                </Banner>
+            </Hero>
+            <Services />
+            <FeaturedRooms />
+        </>
+    );
 };
 
 export default Home;
